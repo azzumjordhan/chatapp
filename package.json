@@ -1,0 +1,19 @@
+{
+  "name": "chatconference",
+  "version": "1.0.0",
+  "description": "Chat Conference",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Azzum Jordhan",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.7",
+    "socket.io": "^4.4.1"
+  }
+}
